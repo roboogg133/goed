@@ -1,4 +1,4 @@
-module goed
+module github.com/roboogg133/goed
 
 go 1.25.1
 
