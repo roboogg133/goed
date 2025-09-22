@@ -24,8 +24,8 @@ var generateCmd = &cobra.Command{
 	Short: "Generate 2 keys files",
 	Args:  cobra.MaximumNArgs(2),
 	Run: func(cmd *cobra.Command, args []string) {
-		outpriv := "ed25519key"
-		outpub := "ed25519key.pub"
+		outpriv := "ed25519key.pem"
+		outpub := "ed25519public_key.pem"
 		if len(args) > 0 {
 			outpriv = args[0]
 			if len(args) > 1 {
