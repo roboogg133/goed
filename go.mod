@@ -1,4 +1,4 @@
-module gpg-ed25519
+module goed
 
 go 1.25.1
 
